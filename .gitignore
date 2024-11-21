@@ -1,0 +1,55 @@
+# Scala/SBT specific
+target/              # SBT build output (compiled classes, JAR files, etc.)
+project/project/
+project/target/
+microservice/target/          # Target folder in the project directo
+microservice/project/target/
+microservice/project/project/
+yvideos_etl/project/target/
+yvideos_etl/project/project/
+yvideos_etl/target/
+datamigration-project/
+target
+project
+
+
+# SBT settings
+.idea/                   # IntelliJ IDEA project files
+.cache/                  # Cached files
+.history/                # SBT history
+lib_managed/             # Managed dependencies
+src_managed/             # Generated sources by SBT
+
+# Logs and reports
+logs/                    # Logs folder
+*.log                    # Log files
+
+# IDE specific files
+*.iml                    # IntelliJ IDEA project files
+*.ipr                    # IntelliJ IDEA project files
+*.iws                    # IntelliJ IDEA workspace files
+*.classpath              # Eclipse files
+*.project                # Eclipse files
+.metadata/               # Eclipse metadata
+*.DS_Store               # macOS directory attribute files
+*.swp                    # Swap files (created by text editors like vim)
+.vscode/                 # VS Code project settings
+.settings/               # Eclipse settings
+
+# sbt plugin-specific
+.sbt/                    # SBT global settings
+.sbtboot/                # SBT boot files
+*.lock                   # Lock files (like Ivy or sbt lock files)
+.metals/                 # Metals plugin (Scala language server)
+.bloop/                  # Bloop build server configuration
+
+# MacOS-specific
+.DS_Store                # macOS folder metadata
+
+# Windows-specific
+Thumbs.db                # Windows thumbnail cache
+ehthumbs.db              # Windows enhanced thumbnail cache
+
+# Operating system files
+*.bak                    # Backup files
+*.tmp                    # Temporary files
