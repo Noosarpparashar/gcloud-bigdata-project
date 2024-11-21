@@ -11,6 +11,8 @@ yvideos_etl/target/
 datamigration-project/
 target
 project
+.idea
+*.idea
 
 
 # SBT settings

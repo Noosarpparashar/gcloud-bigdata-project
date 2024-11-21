@@ -5,6 +5,7 @@
     <output-test url="file://$MODULE_DIR$/../../microservice/target/scala-2.12/test-classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../microservice">
+      <sourceFolder url="file://$MODULE_DIR$/../../microservice/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../microservice/src/main/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../microservice/src/test/scala" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../microservice/target" />
