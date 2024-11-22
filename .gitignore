@@ -8,6 +8,7 @@ microservice/project/project/
 yvideos_etl/project/target/
 yvideos_etl/project/project/
 yvideos_etl/target/
+yvideos_etl/src/main/resources/secrets
 datamigration-project/
 target
 project
